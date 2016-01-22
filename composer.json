@@ -1,0 +1,13 @@
+{
+  "require": {
+    "php": ">=5.4",
+    "johnpbloch/wordpress": "4.*",
+    "automattic/jetpack": "3.*"
+  },
+  "extra": {
+    "wordpress-install-dir": "public",
+    "installer-paths": {
+      "public/wp-content/plugins/{$name}": ["automattic/jetpack"]
+    }
+  }
+}
